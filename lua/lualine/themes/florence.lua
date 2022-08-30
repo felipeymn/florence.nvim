@@ -15,15 +15,23 @@ return {
 	},
 	insert = {
 		a = { bg = colors.blue, fg = colors.alt_fg, gui = "bold" },
+		b = { bg = colors.bg, fg = colors.bg },
+		c = { bg = colors.bg, fg = colors.bg },
 	},
 	visual = {
 		a = { bg = colors.cyan, fg = colors.alt_fg, gui = "bold" },
+		b = { bg = colors.bg, fg = colors.bg },
+		c = { bg = colors.bg, fg = colors.bg },
 	},
 	replace = {
 		a = { bg = colors.red, fg = colors.alt_fg, gui = "bold" },
+		b = { bg = colors.bg, fg = colors.bg },
+		c = { bg = colors.bg, fg = colors.bg },
 	},
 	command = {
 		a = { bg = colors.green, fg = colors.alt_fg, gui = "bold" },
+		b = { bg = colors.bg, fg = colors.bg },
+		c = { bg = colors.bg, fg = colors.bg },
 	},
 	inactive = {
 		a = { bg = colors.bg, fg = colors.bg, gui = "bold" },
