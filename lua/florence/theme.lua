@@ -279,6 +279,7 @@ theme.set_highlights = function()
   hl(0, "NvimTreeSymlink", { fg = c.cyan, bg = 'NONE' })
   hl(0, "NvimTreeRootFolder", { fg = c.fg, bg = 'NONE', bold=true, })
   hl(0, "NvimTreeExecFile", { fg = '#9FBA89', bg = 'NONE' })
+  hl(0, "NvimTreeTitle", { fg = c.alt_fg, bg = c.bg, bold=true, italic=true, })
 
   -- Buffer
   hl(0, "BufferCurrent", { fg = c.fg, bg = c.bg })
