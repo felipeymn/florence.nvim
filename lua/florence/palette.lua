@@ -5,6 +5,7 @@ local colors = {
   alt_bg = "#592c1c",
   dark = "#040604",
   search_blue = "#083C5A",
+  indent_blankline = "#202020",
   gray = "#404040",
   light_gray = "#d9d9d9",
   blue = "#9FCDD9",

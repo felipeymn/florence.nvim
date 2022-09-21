@@ -303,9 +303,9 @@ theme.set_highlights = function()
   hl(0, "BufferInactiveTarget", { fg = c.red, bg = c.alt_bg, bold=true, })
 
   -- IndentBlankline
-  hl(0, "IndentBlanklineContextChar", { fg = c.gray, bg = 'NONE' })
+  hl(0, "IndentBlanklineContextChar", { fg = c.indent_blankline, bg = 'NONE' })
   hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', underline=true, })
-  hl(0, "IndentBlanklineChar", { fg = c.gray, bg = 'NONE' })
+  hl(0, "IndentBlanklineChar", { fg = c.indent_blankline, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceChar", { fg = c.blue, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceCharBlankline", { fg = c.info_blue, bg = 'NONE' })
 
