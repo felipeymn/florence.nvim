@@ -16,7 +16,7 @@ theme.set_highlights = function()
   hl(0, "SpellLocal", { fg = c.green, bg = 'NONE', underline=true, })
   hl(0, "SpellRare", { fg = c.orange, bg = 'NONE', underline=true, })
   hl(0, "NormalNC", { fg = c.fg, bg = c.bg })
-  hl(0, "Pmenu", { fg = c.light_gray, bg = c.dark, sp = 'NONE', blend=50,  })
+  hl(0, "Pmenu", { fg = c.light_gray, bg = c.alt_bg, sp = 'NONE', blend=50,  })
   hl(0, "PmenuSel", { fg = 'NONE', bg = c.magenta })
   hl(0, "PmenuSbar", { fg = 'NONE', bg = c.dark })
   hl(0, "PmenuThumb", { fg = 'NONE', bg = c.light_gray })
@@ -308,8 +308,6 @@ theme.set_highlights = function()
   hl(0, "IndentBlanklineChar", { fg = c.indent_blankline, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceChar", { fg = c.blue, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceCharBlankline", { fg = c.info_blue, bg = 'NONE' })
-
-  -- Dashboard
 
   -- Cmp
   hl(0, "CmpItemAbbrDeprecated", { fg = c.gray, bg = 'NONE', strikethrough=true, })
