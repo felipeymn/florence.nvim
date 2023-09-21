@@ -1,9 +1,9 @@
 local colors = {
-  fg = "#F7D2D2",
-  bg = "#151712",
-  alt_fg = "#ffeeb0",
+  fg = "#f5f5f5",
+  bg = "#0c0e0f",
+  alt_fg = "#f5f5f5",
   alt_bg = "#592c1c",
-  dark = "#0e0f0c",
+  dark = "#14171a",
   search_blue = "#083C5A",
   indent_blankline = "#202020",
   gray = "#404040",
