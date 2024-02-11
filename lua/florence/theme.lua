@@ -192,12 +192,12 @@ theme.set_highlights = function()
   hl(0, "WhichKeyFloat", { fg = 'NONE', bg = c.base01, })
 
   -- Git
-  hl(0, "SignAdd", { fg = c.r3d, bg = 'NONE', })
+  hl(0, "SignAdd", { fg = c.base0B, bg = 'NONE', })
   hl(0, "SignChange", { fg = c.r3d, bg = 'NONE', })
-  hl(0, "SignDelete", { fg = c.r3d, bg = 'NONE', })
-  hl(0, "GitSignsAdd", { fg = c.r3d, bg = 'NONE', })
+  hl(0, "SignDelete", { fg = c.base0D, bg = 'NONE', })
+  hl(0, "GitSignsAdd", { fg = c.base0B, bg = 'NONE', })
   hl(0, "GitSignsChange", { fg = c.r3d, bg = 'NONE', })
-  hl(0, "GitSignsDelete", { fg = c.r3d, bg = 'NONE', })
+  hl(0, "GitSignsDelete", { fg = c.base0D, bg = 'NONE', })
 
   -- LSP
   hl(0, "LspDiagnosticsDefaultError", { fg = c.r3d, bg = 'NONE', })

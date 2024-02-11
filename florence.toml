@@ -243,12 +243,13 @@
  WhichKeyFloat = '- base01'
 
 [Git]
- SignAdd = 'r3d'
+ # Testing
+ SignAdd = 'base0B'
  SignChange = 'r3d'
- SignDelete = 'r3d'
- GitSignsAdd = 'r3d'
+ SignDelete = 'base0D'
+ GitSignsAdd = 'base0B'
  GitSignsChange = 'r3d'
- GitSignsDelete = 'r3d'
+ GitSignsDelete = 'base0D'
 
 [LSP]
  LspDiagnosticsDefaultError = 'r3d'
