@@ -15,7 +15,7 @@ local colors = {
   base0D = "#d9573d",
   base0E = "#e69147",
   base0F = "#50799e",
-  r3d = "#ff0000",
+  tbd = "#ff0000",
 }
 
 return colors
