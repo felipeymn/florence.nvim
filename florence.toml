@@ -82,7 +82,7 @@
  CursorLine = '- base01'
  CursorColumn = '- base01'
  ColorColumn = '- base01'
- NormalFloat = '- base01'
+ NormalFloat = '- base00'
  Visual = '- base02'
  DiffAdd = 'base0B #373737'
  DiffChange = 'base0F #030005'
@@ -252,9 +252,9 @@
  GitSignsDelete = 'base0D'
 
 [LSP]
- LspDiagnosticsDefaultError = 'base0D'
- LspDiagnosticsDefaultWarning = 'base0E'
- LspDiagnosticsDefaultInformation = 'base09'
+ LspDiagnosticsDefaultError = 'base0D base00'
+ LspDiagnosticsDefaultWarning = 'base0E base00'
+ LspDiagnosticsDefaultInformation = 'base09 base00'
  LspDiagnosticsDefaultInfo = 'base09'
  LspDiagnosticsDefaultHint = 'base08'
  LspDiagnosticsFloatingError = 'link:LspDiagnosticsDefaultError'
@@ -270,10 +270,10 @@
  DiagnosticSignInfo = 'base09'
  DiagnosticSignHint = 'base08'
 #Test
- DiagnosticFloatingError = 'base0D base01'
- DiagnosticFloatingWarn = 'base0E base01'
- DiagnosticFloatingInfo = 'base09 base01'
- DiagnosticFloatingHint = 'base08 base01'
+ DiagnosticFloatingError = 'base0D base00'
+ DiagnosticFloatingWarn = 'base0E base00'
+ DiagnosticFloatingInfo = 'base09 base00'
+ DiagnosticFloatingHint = 'base08 base00'
 
  DiagnosticError = 'link:LspDiagnosticsDefaultError'
  DiagnosticWarn = 'link:LspDiagnosticsDefaultWarning'
